@@ -27,7 +27,7 @@ class Weather_worker(QMainWindow):
         self.title = title
         self.ui.setupUi(self)
         self.setWindowTitle(self.title)
-        self.api_key = "19f7eab5025caaaf3df40a93b8d8a3e9"
+        self.api_key = ""
         self.lon = 0
         self.lat = 0
         self.ui.pushButton.setIcon(QIcon('images/arrow-circle-225.png'))
